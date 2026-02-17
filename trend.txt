@@ -1,0 +1,9 @@
+#!/bin/bash
+file_exists(){
+  if [ -f "$1" ]; then
+      echo "File__exists"
+  else
+     echo "Not__exitss"
+  fi
+}
+file_exists trend.txt
